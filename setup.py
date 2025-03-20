@@ -5,19 +5,20 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="weather_utils",
-    version="0.1",
+    version="2.0.0",
     author="Srihari Kata",
-    author_email="x24155331@student.ncirl.ie",  # Replace with your email
+    author_email="x24155331@student.ncirl.ie",  
     description="A utility package for weather data handling with AWS services",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sriharikata/CPP_Project/tree/main/weatherapp/weather_utils",  # Replace with actual GitHub URL
+    url="https://github.com/sriharikata/Weather-Utils/tree/main/weather_utils", 
     packages=["weather_utils"],
-    install_requires=["requests","boto3"],  # Required dependencies
+    install_requires=["requests","boto3","python-dotenv"],  # Required dependencies
     classifiers=[
         "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.6",
+    python_requires=">=3.7",
 )
 
