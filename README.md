@@ -1,3 +1,5 @@
+Published Library Link: https://pypi.org/project/weather-utils/
+
 ### Environment Variables for `weather_utils` Library  
 
 The `weather_utils` library relies on environment variables for configuration. Before using the library, ensure the required environment variables are properly set.  
